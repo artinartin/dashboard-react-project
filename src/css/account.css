@@ -1,0 +1,230 @@
+.account-header {
+  font-family: DM Sans;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 31px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.account-btn {
+  background-color: #624bff !important;
+  color: white;
+  font-weight: 500;
+  border-color: #624bff;
+}
+.gray-line {
+  height: 1px;
+  border-width: 0;
+  background-color: #c4cdd5;
+}
+.card-header {
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0em;
+  color: #161c24;
+}
+.card-description {
+  font-family: DM Sans;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 12px;
+  letter-spacing: 0em;
+  color: #6c757d;
+}
+.avatar-image {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  border: 2px solid #e9ecef66;
+  margin-right: 1rem !important;
+}
+.avatar-btn {
+  color: #624bff !important;
+  background-color: white !important;
+  color: white;
+  font-weight: 500;
+  border: 1px solid #dfe3e8;
+  box-shadow: 0px 1px 1px 0.5px #052c650f;
+  padding-bottom: 4px !important;
+  padding-top: 3px !important;
+}
+.card-subheader {
+  font-family: Inter;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0em;
+  color: #212529;
+  width: 12.5rem;
+}
+.sub-setting {
+  display: flex;
+  align-items: center;
+}
+.drag-image-box {
+  border: 1px solid #dfe3e8;
+  border-radius: 6px;
+  width: 34.5rem;
+  text-align: center;
+}
+.drag-image-box-text {
+  font-family: Inter;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 12px;
+  letter-spacing: -0.02em;
+  color: #919eab;
+}
+.drag-image-box-link {
+  text-decoration: none;
+}
+::placeholder {
+  color: #919eab !important;
+}
+.gray-option {
+  color: black !important;
+}
+.form-select:focus {
+  outline: none;
+  border-color: #dee2e6;
+  box-shadow: none;
+}
+.save-changes-btn {
+  background-color: #624bff !important;
+  color: white;
+  font-weight: 500;
+  border-color: #624bff;
+  margin-left: 12.5rem;
+}
+.save-changes-btn:hover {
+  color: #624bff;
+  background-color: white !important;
+  border-color: #624bff;
+}
+.password-requirements-header {
+  font-family: Inter;
+  font-size: 1rem;
+  font-weight: 900;
+  line-height: 1rem;
+  letter-spacing: 0em;
+  color: #212529;
+}
+.password-requirements-text {
+  font-family: Inter;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 16px;
+  letter-spacing: 0em;
+  color: #637381;
+}
+input:focus {
+  outline: none !important;
+  border-color: #dee2e6 !important;
+  box-shadow: none !important;
+}
+.card-bold-subheader {
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 19px;
+  letter-spacing: 0em;
+}
+.blue-btn {
+  background-color: #624bff !important;
+  opacity: 1;
+  color: white;
+  font-weight: 500;
+  border-color: #624bff;
+}
+.blue-btn:hover {
+  color: #624bff;
+  background-color: white !important;
+  border-color: #624bff;
+}
+.code-input {
+  width: 42px;
+  height: 42px;
+  border: 1px solid #dfe3e8;
+  margin-right: 30px;
+  border-radius: 8px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.3rem;
+}
+.cancel-btn {
+  background-color: #f9fafb !important;
+  opacity: 1;
+  color: black;
+  font-weight: 500;
+  border-color: #f9fafb;
+}
+.cancel-btn:hover {
+  color: #f9fafb;
+  background-color: black !important;
+  border-color: #f9fafb;
+}
+.need-help-link {
+  color: #dc3545;
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 17px;
+  letter-spacing: 0em;
+  text-decoration: none;
+}
+.need-help-link:hover {
+  font-weight: bold;
+}
+.table-head {
+  font-family: Inter;
+  font-size: 12px;
+  font-weight: 700 !important;
+  line-height: 45px;
+  letter-spacing: 0em;
+  color: #6c757d !important;
+  background-color: #f9fafb !important;
+}
+.account-table-browser-name {
+  font-family: Inter;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.table-head {
+  text-align: left !important;
+}
+.table-head2 {
+  font-family: Inter;
+  font-size: 13px;
+  font-weight: 700 !important;
+  line-height: 49px;
+  letter-spacing: -0.02em;
+  text-align: left !important;
+  color: #161c24;
+  background-color: #f4f6f8 !important;
+}
+.left-th {
+  border-radius: 4px 0px 0px 4px;
+}
+.right-th {
+  border-radius: 0px 4px 4px 0px;
+}
+.notification-table-activity {
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 14px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #637381;
+}
+.empty-td {
+  width: 16px;
+  height: 1px;
+  border-radius: 2;
+  background: #919eab;
+}

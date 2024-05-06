@@ -1,0 +1,324 @@
+.left-side {
+  background-color: #212b36;
+  font-family: DM Sans 14pt Light;
+  line-height: 18.23px;
+}
+.header {
+  color: white;
+  font-family: Poppins semiBold;
+  height: 18px;
+}
+.homeIcon {
+  color: #637381;
+  font-size: 1.8rem;
+}
+
+.bufferIcon {
+  color: #637381;
+  font-size: 1.8rem;
+}
+
+.tableIcon {
+  color: #637381;
+  font-size: 1.5rem;
+  margin-left: 0.15rem;
+}
+.dropdown {
+  color: #637381;
+  font-size: 1.9rem;
+}
+.dropdown:hover {
+  font-weight: bold;
+  color: #748797;
+}
+.dashboardTitle {
+  color: #919eab;
+  margin: 0px 0px 0px 1rem !important;
+  font-size: 1.2rem;
+}
+.cBadge {
+  background-color: #ffc107 !important;
+  color: black !important;
+  width: 36px;
+  height: 19px;
+  padding: 3px 8px 3px 8px;
+  border-radius: 16px;
+  font-size: 0.9rem;
+  font-weight: bold;
+}
+.dashboardSubtitle {
+  color: #919eab;
+  font-weight: 500;
+  margin: 1rem 0px 0px 2.5rem !important;
+  font-size: 1.1rem;
+}
+.dashboardHeader {
+  color: #919eab;
+  font-weight: 600;
+  margin: 2rem 0px 0px 1.6rem !important;
+  font-size: 1.1rem;
+}
+.row {
+  --bs-gutter-x: 0rem !important;
+}
+.navbar {
+  height: 66px;
+  padding: 12px 32px 12px 32px;
+  justify-content: space-between;
+  box-shadow: 0px 1px 2px 0px #151e2814;
+  box-shadow: 0px 2px 4px 0px #0d172114;
+}
+.searchbar {
+  width: 282px;
+  height: 42px;
+  padding: 12px 20px 12px 20px;
+  border-radius: 6px;
+  border: 1px solid #dfe3e8;
+  background-color: #ffffff;
+}
+.notificationIcon {
+  color: #637381;
+  font-size: 1.8rem;
+}
+.counter {
+  height: 16px;
+  width: 16px;
+  right: 92px;
+  top: 13px;
+  background-color: #dc3545;
+  border-radius: 50%;
+  display: flex;
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 0.8rem;
+}
+.profile-image {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  border: 2px solid #e9ecef66;
+  margin-left: 20px;
+}
+.projectsbar {
+  height: 191px;
+  background-color: #624bff;
+}
+.project-title {
+  font-family: Inter;
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 34px;
+  letter-spacing: -0.03em;
+  text-align: left;
+  color: white;
+}
+.project-btn {
+  background-color: white !important;
+  color: #624bff;
+  font-weight: 500;
+  border-color: white;
+}
+.project-btn:hover {
+  background-color: rgb(228, 227, 227) !important;
+  border-color: rgb(228, 227, 227);
+}
+.card-title {
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19px;
+  letter-spacing: 0em;
+}
+.project-card {
+  box-shadow: 0px 1px 2px 0px #151e2814;
+  background-color: white;
+  box-shadow: 0px 2px 4px 0px #0d172114;
+  border-radius: 8px;
+  padding: 24px;
+  margin-bottom: 10px;
+  min-width: 9.5rem
+}
+.cardIcon {
+  background-color: #e0dcfe;
+  font-size: 2rem;
+  color: #624bff;
+  padding: 8px;
+  border-radius: 6px;
+}
+.card-number {
+  font-size: 42px;
+  font-weight: 700;
+  line-height: 42px;
+  letter-spacing: -0.02em;
+  color: #161c24;
+}
+.card-completed-number {
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 17px;
+  letter-spacing: 0em;
+  color: #454f5b;
+}
+.card-completed-text {
+  font-family: Inter;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 17px;
+  letter-spacing: 0em;
+  color: #637381;
+}
+.active-projects {
+  box-shadow: 0px 1px 2px 0px #151e2814;
+  box-shadow: 0px 2px 4px 0px #0d172114;
+  border-radius: 8px;
+  position: relative;
+  top: -6.25rem;
+}
+.cardbar {
+  position: relative;
+  top: -6.25rem;
+}
+
+.table-head {
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 49px;
+  letter-spacing: -0.02em;
+  background-color: #e2e8f0 !important;
+}
+.active-projects-title {
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 51px;
+  letter-spacing: 0em;
+}
+
+th {
+  font-weight: 500 !important;
+  margin: 0 !important;
+  text-align: center !important;
+  padding: 0rem 1.5rem 0rem 1.5rem !important;
+}
+td {
+  padding: 0.5rem 1.5rem 0.5rem 1.5rem !important;
+  height: 50px !important;
+}
+
+.table-project-name {
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19px;
+  letter-spacing: 0em;
+}
+.table-priority {
+  border-radius: 2px;
+  margin: 0 !important;
+  padding: 4px 8px 4px 8px;
+}
+.table-member-img {
+  width: 30px;
+  height: 30px;
+  border: 1px solid #ffffff;
+  border-radius: 50%;
+  position: relative;
+}
+.table-member-span {
+  color: white;
+  font-family: Inter;
+  font-size: 12px;
+  font-weight: 500;
+  width: 30px;
+  height: 30px;
+  border: 1px solid #ffffff;
+  border-radius: 50%;
+  background-color: #624bff;
+  padding-top: 3px;
+  position: relative;
+}
+.table-progress-label {
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 0em;
+  margin-top: 0.5rem;
+}
+.td-div {
+  height: 50px !important;
+}
+
+.th-1 {
+  text-align: left !important;
+}
+.chart-title {
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19px;
+  letter-spacing: 0em;
+  color: #0f172a;
+}
+.chart-percent {
+  font-family: DM Sans;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 34px;
+  letter-spacing: -0.02em;
+}
+.chart-description {
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 0em;
+}
+.teams-title {
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 500;
+}
+.teams-table-avatar {
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+}
+.teams-table-name {
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.teams-table-email {
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 17px;
+  letter-spacing: 0em;
+  color: #64748b;
+}
+.teams-table-text {
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  color: #475569;
+}
+.more-tr {
+  border: 1px, 0px, 0px, 0px;
+  border-color: #E2E8F0;
+  border-width: 1px;
+  color: #624BFF;
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 0em;
+}

@@ -1,0 +1,28 @@
+.login-title {
+  font-family: "Poppins semiBold";
+  color: #624bff;
+  font-weight: bold;
+  font-size: 25px;
+  margin: 0 !important;
+}
+.card {
+  padding: 32px;
+  width: 369px;
+}
+label {
+    color: #1E293B;
+}
+.btn-info{
+    color: white !important;
+    background-color:  #624BFF !important;
+    border-color: #624BFF !important;
+
+;
+}
+a:hover {
+  font-weight: 500;
+}
+.form-img{
+  width: 37px;
+  height: 30px;
+}

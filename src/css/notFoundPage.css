@@ -1,0 +1,18 @@
+.notFoundButton {
+  background-color: #624bff !important;
+}
+.notFoundButton:hover {
+  background-color: #624bff !important;
+  font-weight: 500 !important;
+}
+.notFoundHeader {
+  font-family: Poppins semiBold;
+}
+.notFoundDescription {
+  font-family: Poppins Light;
+  font-size: 1rem;
+}
+.notFound-img {
+  width: 706px;
+  height: 335px;
+}
